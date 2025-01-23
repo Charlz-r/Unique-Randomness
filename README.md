@@ -24,4 +24,6 @@ This project combines randomness with structure in a way that reflects both the 
 
 The result is a colorful, dynamic spiral, with the character data from the "Bee Movie" script influencing the growth and aesthetic of the pattern. The ever-changing colors and transparency give the spiral a unique, evolving appearance, offering an artistic interpretation of a random sequence.
 
+![Art Image](art.png)
+
 [View the Sketch](https://editor.p5js.org/c_reed/sketches/jQcEiJ5B3)
