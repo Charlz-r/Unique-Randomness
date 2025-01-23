@@ -6,22 +6,22 @@ This project generates a dynamic spiral pattern driven by pseudo-random values d
 
 1. **Value Generation**: 
    - The "Bee Movie" script is read character by character.
-   - The ASCII value of each character is used to modify the sequence's index, incrementing it based on the character's ordinal (ASCII) value.
-   
+   - For each character, its ASCII value (the numeric representation of the character) is retrieved using the `ord()` function.
+   - This ASCII value is used to increment the sequence's index, making the next character’s index shift by the value of the current character's ASCII code. This process continues until the entire script is parsed.
+
 2. **Spiral Creation**:
-   - The sequence of generated values controls the radius of the spiral, causing it to grow and evolve.
-   - As the spiral expands, the colors and transparency of the lines change, adding a fluid, artistic effect to the pattern.
+   - The sequence of generated values is used to control the radius of the spiral at each iteration.
+   - As the spiral grows, the radius values cause it to expand in a tight, dynamic manner. The changing values produce a visually intriguing and ever-evolving pattern.
+   - In addition to the spiral's shape, the colors and transparency of the lines also change as the spiral grows, adding fluid, artistic effects to the pattern.
+
+## Value Generation Insights
+
+The pseudo-random values are derived from the "Bee Movie" script, using the characters' ASCII values to iteratively modify the sequence's index. Since the English language has a wide variety of characters but not too many repeating patterns, I thought it would be interesting to use this large data set for generating random values. With the approach I used, the distribution of values should remain fairly balanced. Since the ASCII values of the characters aren't overly biased in a way that would skew the random distribution, the results are fairly even across the sequence. Plus, as the script's length is large, it provides a nice, diverse range of values without having to worry too much about patterns influencing the outcome.
+
+This project combines randomness with structure in a way that reflects both the randomness of language and the natural symmetry of a spiral, which I find fascinating!
 
 ## Visuals
 
-The result is a colorful, dynamic spiral, with the character data from the "Bee Movie" script influencing the growth and aesthetic of the pattern. The ever-changing colors and transparency give the spiral a unique, evolving appearance.
+The result is a colorful, dynamic spiral, with the character data from the "Bee Movie" script influencing the growth and aesthetic of the pattern. The ever-changing colors and transparency give the spiral a unique, evolving appearance, offering an artistic interpretation of a random sequence.
 
 [View the Sketch](https://editor.p5js.org/c_reed/sketches/jQcEiJ5B3)
-
-## Dependencies
-
-- p5.js: A JavaScript library used for creative coding, which is utilized to generate the visual spiral and artistic effects.
-
-## License
-
-This project is open source. Feel free to use and modify it!
