@@ -19,11 +19,5 @@ This project generates a dynamic spiral pattern driven by pseudo-random values d
 
 The pseudo-random values are derived from the "Bee Movie" script, using the characters' ASCII values to iteratively modify the sequence's index. Since the English language has a wide variety of characters but not too many repeating patterns, I thought it would be interesting to use this large data set for generating random values. With the approach I used, the distribution of values should remain fairly balanced. Since the ASCII values of the characters aren't overly biased in a way that would skew the random distribution, the results are fairly even across the sequence. Plus, as the script's length is large, it provides a nice, diverse range of values without having to worry too much about patterns influencing the outcome.
 
-This project combines randomness with structure in a way that reflects both the randomness of language and the natural symmetry of a spiral, which I find fascinating!
-
-## Visuals
-
-The result is a colorful, dynamic spiral, with the character data from the "Bee Movie" script influencing the growth and aesthetic of the pattern. The ever-changing colors and transparency give the spiral a unique, evolving appearance, offering an artistic interpretation of a random sequence.
-
 ![Art Image](art.png)
 
