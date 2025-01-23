@@ -1,4 +1,5 @@
 # Dynamic Spiral Pattern Using "Bee Movie" Script
+[View the Sketch](https://editor.p5js.org/c_reed/sketches/jQcEiJ5B3)
 
 This project generates a dynamic spiral pattern driven by pseudo-random values derived from the "Bee Movie" script. By iterating through a sequence of values, each derived from the ASCII values of the script's characters, the code creates a visually unique and evolving spiral.
 
@@ -26,4 +27,3 @@ The result is a colorful, dynamic spiral, with the character data from the "Bee 
 
 ![Art Image](art.png)
 
-[View the Sketch](https://editor.p5js.org/c_reed/sketches/jQcEiJ5B3)
